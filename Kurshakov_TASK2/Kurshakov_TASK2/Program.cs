@@ -21,7 +21,7 @@ namespace Kurshakov_TASK2
             
                 array[i] = i+1;
             
-            result = Matematic.Summ(array, border)/(elements_amount-border);
+            result = (double)Matematic.Summ(array, border)/(elements_amount-border+1);
             Console.WriteLine("Awarage between {0} and {1} is {2}", border, elements_amount,result);
             Console.WriteLine();
 
