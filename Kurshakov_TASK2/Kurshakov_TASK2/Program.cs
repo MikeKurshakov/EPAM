@@ -93,7 +93,7 @@ namespace Kurshakov_TASK2
 
             //TASK3
             Console.WriteLine();
-            Console.WriteLine("TASK2");
+            Console.WriteLine("TASK3");
 
             int[,] matrix = new int[5, 5];
             int j;
