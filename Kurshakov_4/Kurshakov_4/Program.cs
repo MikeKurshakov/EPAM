@@ -26,7 +26,8 @@ namespace Kurshakov_4
             double progressionStep=2;
             int elementsAmount=5;
 
-            ArithmeticProgression Progression = new ArithmeticProgression(firstElement, progressionStep, elementsAmount);
+            ArithmeticProgression Progression = new ArithmeticProgression(firstElement, progressionStep);
+            Progression.SetElementsAmount(elementsAmount);
 
             double avgValue = Progression.AvaregeValue();
             double summValue = Progression.ProgressionSum();

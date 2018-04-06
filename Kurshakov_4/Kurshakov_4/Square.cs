@@ -10,11 +10,6 @@ namespace Kurshakov_4
     {
         private double side;
 
-        public Square(double side)
-        {
-            this.side = side;
-        }
-
         public void SetSide(double side)
         {
             this.side = side;

@@ -12,10 +12,15 @@ namespace Kurshakov_4
         private double progressionStep;
         private int elementsAmount;
 
-        public ArithmeticProgression(double firstElement, double progressionStep, int elementsAmount)
+        public ArithmeticProgression(double firstElement, double progressionStep)
         {
             this.firstElement = firstElement;
             this.progressionStep = progressionStep;
+            this.elementsAmount = elementsAmount;
+        }
+
+        public void SetElementsAmount(int elementsAmount)
+        {
             this.elementsAmount = elementsAmount;
         }
 
