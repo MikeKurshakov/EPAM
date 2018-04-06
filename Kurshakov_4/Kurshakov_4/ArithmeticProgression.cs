@@ -19,13 +19,6 @@ namespace Kurshakov_4
             this.elementsAmount = elementsAmount;
         }
 
-        public void SetArithmeticProgression(double firstElement, double progressionStep, int elementsAmount)
-        {
-            this.firstElement = firstElement;
-            this.progressionStep = progressionStep;
-            this.elementsAmount = elementsAmount;
-        }
-
         public double AvaregeValue()
         {
             return (2*firstElement+(elementsAmount-1)*progressionStep)/2;
@@ -38,7 +31,7 @@ namespace Kurshakov_4
                 ? firstElement + ProgressionSum(firstElement + progressionStep, --newElementsAmount)
                 : firstElement;
         }
-        public double ProgressionSum(double currentElement,double elementsAmount)
+        private double ProgressionSum(double currentElement,double elementsAmount)
         {
             return (elementsAmount > 1)
                 ? currentElement + ProgressionSum(currentElement + progressionStep, --elementsAmount)

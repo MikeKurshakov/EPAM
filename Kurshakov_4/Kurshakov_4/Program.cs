@@ -14,6 +14,7 @@ namespace Kurshakov_4
         {
             //TASK1
             double side = 3;
+
             Square Figure = new Square();
             Figure.SetSide(side);
 
@@ -24,8 +25,8 @@ namespace Kurshakov_4
             double firstElement=1;
             double progressionStep=2;
             int elementsAmount=5;
-            ArithmeticProgression Progression = new ArithmeticProgression();
-            Progression.SetArithmeticProgression(firstElement, progressionStep, elementsAmount);
+
+            ArithmeticProgression Progression = new ArithmeticProgression(firstElement, progressionStep, elementsAmount);
 
             double avgValue = Progression.AvaregeValue();
             double summValue = Progression.ProgressionSum();
