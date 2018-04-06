@@ -14,6 +14,16 @@ namespace Kurshakov_4
         {
             this.side = side;
         }
+
+        public void SetSide(double side)
+        {
+            this.side = side;
+        }
+
+        public double GetSide()
+        {
+            return side;
+        }
         public double CalculatePerimeter()
         {
             return 4 * side;
