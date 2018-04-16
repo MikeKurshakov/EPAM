@@ -35,6 +35,9 @@
     <Reference Include="ArrayClass">
       <HintPath>..\ArrayClass\obj\Debug\netstandard2.0\ArrayClass.dll</HintPath>
     </Reference>
+    <Reference Include="Polynom">
+      <HintPath>..\Polynom\bin\Debug\netstandard2.0\Polynom.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
